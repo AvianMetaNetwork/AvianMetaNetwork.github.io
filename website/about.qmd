@@ -9,7 +9,7 @@ editor: visual
 
 We’re still building this page—check back soon for more updates!
 
-![](images/under-construction.jpg){fig-alt="Under construction" width=550}
+![](images/under-construction.svg){fig-alt="Under construction" width=550}
 :::
 
 
