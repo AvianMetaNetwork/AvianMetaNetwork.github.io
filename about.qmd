@@ -5,11 +5,9 @@ editor: visual
 ---
 
 ::: {.callout-warning icon="true" collapse="false"}
-## Under construction 🚧
+## Under Construction 🚧
 
 We’re still building this page—check back soon for more updates!
 
-![](images/under-construction.svg){fig-alt="Under construction" width=550}
+![](images/under-construction.svg){fig-alt="Under construction" width="550"}
 :::
-
-
