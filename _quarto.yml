@@ -1,18 +1,22 @@
 project:
   type: website
-  output-dir: ../docs
+  output-dir: docs
+  render:
+    - website/*.qmd
 
 website:
   title: "The Avian MetaNetwork"
   site-url: https://avianmetanetwork.github.io
   navbar:
     left:
-      - href: index.qmd
+      - href: website/index.qmd
         text: Home
-      - href: about.qmd
-        text: About the Project
-      - href: team.qmd
-        text: Meet the Team
+      - href: website/about.qmd
+        text: About
+      - href: website/team.qmd
+        text: Meet the team
+      - href: website/using-data.qmd
+        text: Using the data
 
 format:
   html:
