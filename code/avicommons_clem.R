@@ -68,7 +68,7 @@ plot_avicommons_image <- function(img_info) {
   img <- image_read(url)
 
   #Turn off margins and axes
-  op <- par(mar = c(0, 0, 0, 0)) #Bottom margin for text
+  op <- par(mar = c(0, 0, 0, 0))
   on.exit(par(op))
 
   plot.new()
