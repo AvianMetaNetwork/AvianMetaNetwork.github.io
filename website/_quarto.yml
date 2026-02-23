@@ -3,7 +3,8 @@ project:
   output-dir: ../docs
 
 website:
-  title: "The Avian Interaction Database"
+  title: "The Avian MetaNetwork"
+  site-url: https://avianmetanetwork.github.io
   navbar:
     left:
       - href: index.qmd
