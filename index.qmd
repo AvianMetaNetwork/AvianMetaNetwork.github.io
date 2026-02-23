@@ -31,7 +31,7 @@ library(readr)
 source("code/avicommons_clem.r")
 avi <- jsonlite::fromJSON("code/avicommons_full.json")
 clem <- readr::read_csv("code/clemtax_2025.csv")
-info1 <- get_avicommons_image("Electron platyrhynchum", size = 480)
+info1 <- get_avicommons_image("Chlorophonia elegantissima", size = 480)
 plot_avicommons_image(info1)
 ```
 :::
@@ -46,7 +46,7 @@ plot_avicommons_image(info1)
 #| fig-width: 4
 #| fig-height: 4
 
-info2 <- get_avicommons_image("Querula purpurata", size = 480)
+info2 <- get_avicommons_image("Molothrus ater", size = 480)
 plot_avicommons_image(info2)
 ```
 :::
